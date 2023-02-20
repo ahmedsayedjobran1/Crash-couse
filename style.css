@@ -1,0 +1,12 @@
+img {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.divider {
+    /* padding: ; */
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: black;
+    border: solid 1px black;
+}
