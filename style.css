@@ -15,7 +15,24 @@ img {
     width: 50%;
     margin: 0;
 }
-h4 a{
+
+h4 a {
     display: block;
     text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+*:not(img)::selection {
+    background-color: aqua;
+    color: black;
+}
+
+img::selection {
+    background-color: none;
+    /* this will ignore the selction of an emage  */
 }
