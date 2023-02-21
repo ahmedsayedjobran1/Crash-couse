@@ -10,3 +10,12 @@ img {
     background-color: black;
     border: solid 1px black;
 }
+
+.section-three img {
+    width: 50%;
+    margin: 0;
+}
+h4 a{
+    display: block;
+    text-align: center;
+}
